@@ -1,7 +1,6 @@
 {
   "name": "classic",
   "version": "0.1.0",
-  "homepage": "https://tsots.github.io/classic",
   "private": true,
   "scripts": {
     "dev": "next dev",
