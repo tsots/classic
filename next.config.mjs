@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true, // Disable default image optimization
   },
   assetPrefix: isProd ? "/classic/" : "",
-  basePath: isProd ? "/classic" : "",
+  base: isProd ? "/classic" : "",
   output: "export",
 };
 
