@@ -22,6 +22,7 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
           <p>We are alright</p>
+          <p>Let's see if it works</p>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
