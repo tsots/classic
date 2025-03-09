@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   // basePath: "/classic",
   reactStrictMode: true,
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? "/classic/" : "",
-  base: isProd ? "/classic" : "",
+  trailingSlash: true,
   output: "export",
 };
 
