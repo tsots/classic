@@ -1,6 +1,6 @@
 import Image from "next/image";
-const next = "/next.svg";
-const logo = "/globe.svg";
+const next = "next.svg";
+const logo = "globe.svg";
 
 export default function Home() {
   return (
