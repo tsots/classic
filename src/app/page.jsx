@@ -1,4 +1,6 @@
 import Image from "next/image";
+const next = "/next.svg";
+const logo = "/globe.svg";
 
 export default function Home() {
   return (
@@ -15,7 +17,7 @@ export default function Home() {
 
         <img
           className="dark:invert"
-          src="/next.svg"
+          src={next}
           width={180}
           height={38}
           alt="what's up"
@@ -40,9 +42,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image
+            <img
               className="dark:invert"
-              src="/vercel.svg"
+              src={logo}
               alt="Vercel logomark"
               width={20}
               height={20}
