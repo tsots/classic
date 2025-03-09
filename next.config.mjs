@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  // basePath: "/classic",
+  basePath: "/classic",
   reactStrictMode: true,
   images: {
     unoptimized: true, // Disable default image optimization
